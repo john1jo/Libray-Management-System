@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="274.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="libray_manegement_system.FXMLDocumentController">
+   <children>
+      <VBox layoutX="4.0" layoutY="-9.0" prefHeight="236.0" prefWidth="506.0">
+         <children>
+            <TextField id="title" promptText="BOOK TITLE">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField id="id" layoutX="10.0" layoutY="10.0" promptText="BOOK ID">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField id="auther" layoutX="10.0" layoutY="35.0" promptText="BOOK AUTHER">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField id="publisher" layoutX="10.0" layoutY="60.0" prefHeight="26.0" prefWidth="515.0" promptText="PUBLISHER">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+      </VBox>
+      <Button id="save" layoutX="271.0" layoutY="226.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="257.0" stylesheets="@ADDBOOK.CSS.css" text="CANCEL" />
+      <Button id="cancel" layoutX="-8.0" layoutY="226.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="265.0" stylesheets="@ADDBOOK.CSS.css" text="SAVE" />
+   </children>
+</AnchorPane>
